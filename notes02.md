@@ -148,8 +148,8 @@
   ln -s /root/share/new_models/Shanghai_AI_Laboratory/internlm-xcomposer2-vl-7b /root/models/internlm-xcomposer2-vl-7b
   ```
 
-<img src="images/hw02/04.png">
-<img src="images/hw02/05.png">
+
+
 ##### 4.2图文写作实战
 - 启动`InternLM-XComposer`:
 - ```
@@ -163,6 +163,8 @@
 > 同前文改本地链接
 
 - 运用：输入描述prompt
+- <img src="images/hw02/04.png">
+- <img src="images/hw02/05.png">
 
 ##### 4.3图片理解实战
 - ```
@@ -176,6 +178,8 @@
   --port 6006
   ```
 - 应用：上传图片输入prompt
+- <img src="images/hw02/06.png">
+
 ---
 
 ### 5 使用`huggingface_hub`python包，下载`InternLM2-Chat-7B`的`config.json`文件到本地
