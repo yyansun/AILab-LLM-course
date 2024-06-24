@@ -82,6 +82,7 @@
 > # 将下方端口号 38374 替换成自己的端口号
 > ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38374
 
+- <img src="images/hw02/012.png">
 ---
 ### 3实战：使用`Lagent`运行`InternLM2-Chat-7B`模型
 ##### 3.1 环境配置
@@ -101,6 +102,8 @@
   git checkout 581d9fb8987a5d9b72bb9ebd37a95efd47d479ac
   pip install -e . # 源码安装
   ```
+
+  <img src="images/hw02/07.png">
 ##### 3.2使用`Lagent`运行`InternLM2-Chat-7B`模型为内核的智能体
 - 进入文件夹：
 - ```
@@ -145,7 +148,8 @@
   ln -s /root/share/new_models/Shanghai_AI_Laboratory/internlm-xcomposer2-vl-7b /root/models/internlm-xcomposer2-vl-7b
   ```
 
-
+<img src="images/hw02/04.png">
+<img src="images/hw02/05.png">
 ##### 4.2图文写作实战
 - 启动`InternLM-XComposer`:
 - ```
@@ -179,6 +183,7 @@
 - ```
   pip install -U huggingface_hub
   ```
+- <img src="images/hw02/01.png">
 - 新建py文件
 - ```
   touch hw02.py
@@ -193,6 +198,7 @@
   
   print(f"File downloaded to: {file_path}")
   ```
+- <img src="images/hw02/02.png">
 - 运行py文件
 - ```
   python hw02.py
